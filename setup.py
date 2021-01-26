@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 setup(
   name = 'img_filters',
   packages = ['img_filters'],
-  version = '0.0.1', 
+  version = '0.0.2', 
   license='MIT', 
   description = 'A package for image manipulation',
   long_description=long_description,
