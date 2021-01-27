@@ -2,6 +2,11 @@
 
 A module to help you with image manipulation.
 
+## Installation
+```bash
+pip install img-filters
+```
+
 ## Usage
 
 Every class takes 1 arguement which is the path to image , it can be either relative or absolute
