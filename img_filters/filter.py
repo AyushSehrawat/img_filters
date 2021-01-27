@@ -98,3 +98,17 @@ class Filter:
                 enh.enhance(val).show('Brightness')
         except ValueError:
             print('Error => ValueError')
+
+    def pixelate(self,p1,p2):
+        try:
+            p1 = int(p1)
+            p2 = int(p2)
+            input = cv2.imread(self.filepath)
+            height, width = input.shape[:2]
+            w, h = (p1,p2)
+            temp = cv2.resize(input, (w, h), interpolation=cv2.INTER_LINEAR)
+            output = cv2.resize(temp, (width, height), interpolation=cv2.INTER_NEAREST)
+            cv2.imshow('Pixelated', output)
+            cv2.waitKey(0)
+        except ValueError:
+            print('Error => Value Error')

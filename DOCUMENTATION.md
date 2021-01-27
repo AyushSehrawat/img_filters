@@ -31,6 +31,7 @@ filter.edge() # Shows the edges of the image
 filter.contrast(val) # Increase or decrease the contrast depending upon val given
 filter.imgcolor(val) # Increase or decrease image color depending upon val given
 filter.bright(val) # Increase or decrease image brighness depending upon val given
+filter.pixelate(val1,val2) # Pixelate the image with given values.
 ```
 
 Tools - Class
