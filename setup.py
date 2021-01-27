@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 setup(
   name = 'img_filters',
   packages = ['img_filters'],
-  version = '0.0.3', 
+  version = '0.0.4', 
   license='MIT', 
   description = 'A package for image manipulation',
   long_description=long_description,
@@ -13,7 +13,7 @@ setup(
   author = 'AyushSehrawat',
   author_email = 'scientificnationwords@gmail.com',
   url = 'https://github.com/AyushSehrawat/img_filters',
-  download_url = 'https://github.com/AyushSehrawat/img_filters/archive/0.0.3.tar.gz',
+  download_url = 'https://github.com/AyushSehrawat/img_filters/archive/0.0.4.tar.gz',
   keywords = ["image manipulation",'image-manipulation','opencv','pillow'],
   install_requires=['Pillow','opencv-python','numpy','kiwisolver','matplotlib'],
   classifiers=[
