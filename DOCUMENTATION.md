@@ -22,7 +22,7 @@ color.hsv() # Example to convert image to hsv
 color.rgba() # Example to convert image to rgba
 ```
 
-Filter-Calss
+Filter-Class
 ```bash
 from img_filters.color import Filter
 filter = Filter('image_name.jpg') # Any image format & Any type of path
